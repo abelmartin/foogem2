@@ -1,6 +1,6 @@
-require "foogem2/version"
+class Foogem2
+  VERSION = "0.0.2"
 
-module Foogem2
   def self.holla
     "YO!"
   end
