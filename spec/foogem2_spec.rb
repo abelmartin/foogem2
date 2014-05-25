@@ -6,6 +6,7 @@ describe Foogem2 do
   end
 
   it 'should do something useful' do
-    false.should be_true
+    # binding.pry
+    Foogem2.holla.should == 'YO!'
   end
 end
