@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'foogem2'
+puts Foogem2.holla

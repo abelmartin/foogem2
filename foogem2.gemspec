@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "foogem2"
-  spec.version       = Foogem2::VERSION
+  spec.version       = "0.0.3"
   spec.authors       = ["Abel Martin"]
   spec.email         = ["abel.martin@gmail.com"]
   spec.summary       = %q{A quick Gem}
   spec.description   = %q{No, seriously, just a quick gem I cooked up}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/abelmartin/foogem2"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "pry-debugger"
+  spec.add_development_dependency "rake", "~> 10.3"
+  spec.add_development_dependency "pry-debugger", "~> 0.2"
 
-  spec.add_runtime_dependency "rspec"
+  spec.add_runtime_dependency "rspec", "~> 2.14"
 end
